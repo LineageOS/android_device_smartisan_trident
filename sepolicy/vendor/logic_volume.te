@@ -24,3 +24,8 @@ allow logic_volume sysfs_dm:file r_file_perms;
 allowxperm logic_volume ramdump_block_device:blk_file ioctl 0x1260;
 allowxperm logic_volume sec_block_device:blk_file ioctl 0x1260;
 allowxperm logic_volume userdata_block_device:blk_file ioctl 0x1260;
+
+recovery_only(`
+  domain_trans(init, rootfs, logic_volume)
+  allow logic_volume rootfs:file execute_no_trans;
+')
