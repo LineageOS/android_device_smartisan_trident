@@ -660,8 +660,8 @@ vendor/lib/libmulawdec.so|5895a96dbd18867d13b66a3486b253957ed58920
 vendor/lib/libsmwrapper.so|c7c91f9c5b47e38ac7b1f653f91124a46be61cf0
 
 # Logic volume
-vendor/bin/dm-tool
-vendor/bin/logic_volume
+vendor/bin/dm-tool;RECOVERY_AVAILABLE
+vendor/bin/logic_volume;RECOVERY_AVAILABLE
 vendor/etc/logic_volume.conf
 vendor/etc/init/logic_volume.rc|beafa018e16eb11ded6f78716024bdf82b11022e
 

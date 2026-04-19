@@ -370,7 +370,8 @@ PRODUCT_PACKAGES += \
 
 # Recovery
 PRODUCT_PACKAGES += \
-    librecovery_updater_trident
+    librecovery_updater_trident \
+    logic_volume.conf
 
 # Seccomp policy
 PRODUCT_COPY_FILES += \
