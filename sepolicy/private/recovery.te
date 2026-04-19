@@ -1,0 +1,1 @@
+allow logic_volume rootfs:file execute_no_trans;
