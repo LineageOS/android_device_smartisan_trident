@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "efb57837_decd1601",
+        "filename": "init/init.qcom.recovery.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-04-19T19:43:24Z",
+      "side": 1,
+      "message": "probably `exec u:r:logic_volume:s0 -- /bin/logic_volume -f /etc/logic_volume.conf` would have been enough, but w/e.",
+      "revId": "fc9b43b8c7d0ed9643f246960f180b0e6f762d8a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6d96fc20_5a75b51a",
+        "filename": "sepolicy/private/recovery.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-04-19T19:43:24Z",
+      "side": 1,
+      "message": "delete.",
+      "revId": "fc9b43b8c7d0ed9643f246960f180b0e6f762d8a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b3620b3a_f38bbf10",
+        "filename": "sepolicy/vendor/file_contexts",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-04-19T19:43:24Z",
+      "side": 1,
+      "message": "delete",
+      "revId": "fc9b43b8c7d0ed9643f246960f180b0e6f762d8a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "35ae1382_cbb491a5",
+        "filename": "sepolicy/vendor/file_contexts",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-04-19T19:43:24Z",
+      "side": 1,
+      "message": "delete",
+      "revId": "fc9b43b8c7d0ed9643f246960f180b0e6f762d8a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
