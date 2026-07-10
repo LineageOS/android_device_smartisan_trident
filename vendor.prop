@@ -82,6 +82,7 @@ vendor.audio.use.sw.alac.decoder=true
 vendor.audio.use.sw.ape.decoder=true
 
 # Bluetooth
+bluetooth.device.default_name=Smartisan R1
 ro.bluetooth.a2dp_offload.supported=true
 bluetooth.device.class_of_device=90,2,12
 bluetooth.hardware.power.operating_voltage_mv=3300
