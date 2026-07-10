@@ -177,6 +177,7 @@ persist.vendor.data.iwlan.enable=true
 ro.vendor.extension_library=libqti-perfd-client.so
 
 # USB
+vendor.usb.product_string=Smartisan R1
 vendor.usb.diag.func.name=diag
 vendor.usb.dpl.inst.name=dpl
 vendor.usb.qdss.inst.name=qdss
