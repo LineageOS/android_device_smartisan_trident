@@ -89,7 +89,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl.smartisan:32 \
     android.hardware.audio.effect@6.0-impl:32 \
     android.hardware.audio.service \
-    android.hardware.soundtrigger@2.3-impl:32 \
+    android.hardware.soundtrigger@2.2-impl:32 \
     audio.r_submix.default \
     audio.usbv2.default \
     libaudioroute.vendor \
