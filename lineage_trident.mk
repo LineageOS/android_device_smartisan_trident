@@ -23,4 +23,4 @@ PRODUCT_SYSTEM_NAME := trident
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="trident-user 8.1.0 OPM1.171019.026 1615464674 release-keys" \
-    BuildFingerprint=SMARTISAN/trident/trident:8.1.0/OPM1.171019.026/1615464674:user/dev-keys
+    BuildFingerprint=SMARTISAN/trident/trident:8.1.0/OPM1.171019.026/1615464674:user/release-keys
